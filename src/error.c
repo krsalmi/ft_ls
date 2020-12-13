@@ -26,7 +26,7 @@ void	error_check(int num, char *msg)
 		ft_putstr_fd("ft_ls: illegal option -- ", 2);
 		ft_putstr_fd(msg, 2);
 		ft_putstr_fd("\n", 2);
-		ft_putstr_fd("usage: ft_ls [-Ralrt] [file ...]\n", 2);
+		ft_putstr_fd("usage: ft_ls [-RalrtG] [file ...]\n", 2);
 		exit(1);
 	}
 	else
